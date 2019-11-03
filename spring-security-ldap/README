@@ -1,0 +1,14 @@
+Sources: 
+	1. JavaBrains  https://www.youtube.com/watch?v=-wDUChgvYgU
+	2. https://spring.io/guides/gs/authenticating-ldap/  -- copied code from: Set up User Data 
+
+How to run:
+	1. http://localhost:8080/login
+	2. enter credentials
+		user name: ben
+		password:  benspassword
+		
+Summary:		
+
+In this project we've build our own ldap server and small API to validate login. In real project just connect to 
+production LDAP server.  LdapShaPasswordEncoder() was deprecated and not recommended to use in production app.
